@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+// We use <stdlib.h> to allow the use of exit() function. We fill in 0 if it is a successfull exit and 1 if otherwise.
 int main()
 {
     int choice;

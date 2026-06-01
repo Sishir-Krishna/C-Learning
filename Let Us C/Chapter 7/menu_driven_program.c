@@ -12,6 +12,9 @@ int main()
     scanf("%d", &choice);
     switch (choice)
     {
+        default:
+            printf("Invalid choice. Please try again.\n");
+            scanf("%d", &choice);
         case 1:
             int number, factorial =1;
             printf("Enter a number: \n");
@@ -46,7 +49,5 @@ int main()
         case 4:
             printf("Exiting the program.\n");
             exit(1);
-        default:
-            printf("Invalid choice. Please try again.\n");
     }
 }

@@ -10,3 +10,7 @@ Week 1 starts from today, 26/05/2026.
 # June 4th
 
 Day lost in travel.
+
+# June 5th
+
+Day lost in family obligation.

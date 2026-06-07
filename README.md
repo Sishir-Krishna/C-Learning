@@ -18,3 +18,7 @@ Day lost in family obligation.
 # June 6th
 
 Last day lost due to family obligation. Hopefully!!!
+
+# June 7th
+
+Rest Day

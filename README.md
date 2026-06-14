@@ -22,3 +22,7 @@ Last day lost due to a family obligation. Hopefully!!!
 # June 7th, 8th, 9th, 10th, 11th, 12th
 
 Rest Day
+
+# Ill health
+
+June 13th, 14th

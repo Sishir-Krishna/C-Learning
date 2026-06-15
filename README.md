@@ -25,4 +25,4 @@ Rest Day
 
 # Ill health
 
-June 13th, 14th
+June 13th, 14th & 15th

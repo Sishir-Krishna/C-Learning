@@ -64,7 +64,7 @@ int main()
                 if (number%2 == 0)
                 printf("%d is an even number.\n", number);
                 else
-                printf("%d is an odd number", number);
+                printf("%d is an odd number.\n", number);
                 break;
             }
         case 4:

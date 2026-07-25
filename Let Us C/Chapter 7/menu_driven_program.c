@@ -39,21 +39,25 @@ int main()
         case 2:
             {
                 int number;
+                char p;
                 printf("Enter a number: \n");
                 scanf("%d", &number);
                 for (int i =2;i<number;i++)
                 {
                     if (number%i == 0)
-                {
-                    printf("%d is not a prime number\n", number);
-                    break;
-                }
-                    else
                     {
-                        printf("%d is a prime number\n", number);
+                        p = 'n';
                         break;
                     }
+                    else
+                    {
+                        p = 'y';
+                    }
                 }
+                if (p == 'y')
+                printf("%d is a prime number.\n", number);
+                else
+                printf("%d is not a prime number.\n", number);
                 break;
             }
         case 3:

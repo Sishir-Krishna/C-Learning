@@ -47,6 +47,7 @@ int main()
                     if (number%i == 0)
                     {
                         p = 'n';
+                        printf("%d is not a prime number.\n", number);
                         break;
                     }
                     else
@@ -56,8 +57,6 @@ int main()
                 }
                 if (p == 'y')
                 printf("%d is a prime number.\n", number);
-                else
-                printf("%d is not a prime number.\n", number);
                 break;
             }
         case 3:

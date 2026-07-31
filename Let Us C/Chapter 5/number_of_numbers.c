@@ -8,6 +8,12 @@ int main()
     int number;
     printf("Enter a number: \n");
     scanf("%d", &number);
+    if (number>0)
+    number_of_positive_num++;
+    else if (number<0)
+    number_of_negative_num++;
+    else
+    no_of_zeroes++;
     while (choice != 'n')
     {
         printf("Do you want to enter another number? \n");
@@ -16,6 +22,7 @@ int main()
         //We have put a space before %c in scanf to consume the newline character left in the input buffer after reading the number.
         if (choice == 'y')
         {
+            printf("Entere another number: \n");
             scanf("%d", &number);
             if (number>0)
             number_of_positive_num++;
@@ -29,15 +36,9 @@ int main()
     // and update the count of positive, negative and zeroes accordingly.
     if (choice == 'n')
     {
-        if (number>0)
-        number_of_positive_num++;
-        else if (number<0)
-        number_of_negative_num++;
-        else
-        no_of_zeroes++;
+        printf("Number of positive numbers: %d\n", number_of_positive_num);
+        printf("Number of negative numbers: %d\n", number_of_negative_num);
+        printf("Number of zeroes: %d\n", no_of_zeroes);
     }
-    printf("Number of positive numbers: %d\n", number_of_positive_num);
-    printf("Number of negative numbers: %d\n", number_of_negative_num);
-    printf("Number of zeroes: %d\n", no_of_zeroes);
     return 0;
 } 

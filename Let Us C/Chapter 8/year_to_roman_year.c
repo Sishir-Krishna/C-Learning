@@ -1,5 +1,5 @@
 #include <stdio.h>
-void romanise(int);
+void romanise(int x);
 int main()
 {
     int year;

@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <math.h>
 float power(float base, float exponent);
 int main()
 {
@@ -12,5 +11,10 @@ int main()
 }
 float power(float base, float exponent)
 {
-    return pow(base,exponent);
+    float result =1;
+    for (int i=1;i<=exponent;i++)
+    {
+        result = result*base;
+    }
+    return result;
 }

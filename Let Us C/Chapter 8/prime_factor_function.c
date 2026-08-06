@@ -2,7 +2,7 @@
 int prime_or_not(int);
 int main()
 {
-    int num,factor;
+    int num;
     printf("Enter a positive integer: \n");
     scanf("%d", &num);
     printf("The prime factors of %d are: \n", num);
@@ -16,9 +16,11 @@ int main()
             printf("%d,", result);
         }
     }
-    int result = prime_or_not (num);
+    int result = prime_or_not (num); 
+    // We write this logic for the case when the number itself is prime. 
+    // In that case, the number itself is a prime factor of itself.
     if (result != 0)
-    printf("%d", result);
+    printf("%d \n", result);
     return 0;
 }
 int prime_or_not(int x)

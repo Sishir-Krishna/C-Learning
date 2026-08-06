@@ -11,20 +11,15 @@ int main()
         if (num%i == 0)
         // Implies that i is a factor of the number. Now we have to check if i is prime or not.
         {
-            int result_of_prime_or_not = prime_or_not (i);
-            if (result_of_prime_or_not == i)
-            {
-                for (int j=num; j%i == 0; j= j/i)
-                {
-                    printf("%d ", i);
-                }
-            }
-            else if (result_of_prime_or_not != i)
-            continue ;
-            // i is a factor, but not a prime factor of the number
-            // go for the next i value.
+            int result = prime_or_not (i);
+            if (result != 0)
+            printf("%d,", result);
         }
     }
+    int result = prime_or_not (num);
+    if (result != 0)
+    printf("%d", result);
+    return 0;
 }
 int prime_or_not(int x)
 {

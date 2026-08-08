@@ -12,10 +12,10 @@ void leap_year (int x)
 {
     if (x%4==0 && x%100!=0 || x%400==0)
     {
-        printf("%d is a leap year", x);
+        printf("%d is a leap year.\n", x);
     }
     else
     {
-        printf("%d is not a leap year", x);
+        printf("%d is not a leap year.\n", x);
     }
 }

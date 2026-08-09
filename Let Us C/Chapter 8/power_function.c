@@ -6,7 +6,7 @@ int main()
     printf("Enter the base and exponent: \n");
     scanf("%f %f", &a, &b);
     result = power(a,b);
-    printf("%f raised to the power %f is %f\n", a, b, result);
+    printf("%f raised to the power %f is %f.\n", a, b, result);
     return 0;
 }
 float power(float base, float exponent)

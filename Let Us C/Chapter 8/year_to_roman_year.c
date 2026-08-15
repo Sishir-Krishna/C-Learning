@@ -47,5 +47,6 @@ void romanise (int x)
     {
         printf("i");
     }
+    printf("\n");
     return;
 }
